@@ -1,0 +1,17 @@
+---
+title: "9-19-2019"
+author: "Jackson Kehoe"
+date: "9/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(tidyverse)
+```
+
+```{r}
+x <- read_excel("class_enrollment_summary_by_term_9.19.19.xlsx", skip = 3)
+```
+
